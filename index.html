@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg">
+        <div id="insert">Insert data</div>
+        <div id="top">
+            <div id="name">Name</div>
+            <input type="text" id="inputname">
+            <div id="surname">Surname</div>
+            <input type="text" id="inputsurname">
+            <div id="name">Gender</div>
+            <select id="inputgender">
+                <option value="ไม่ระบุ">ไม่ระบุ</option>
+                <option value="ชาย">ชาย</option>
+                <option value="หญิง">หญิง</option>
+            </select>
+            <div id="birthdate">Birth Date</div>
+            <input type="date" id="inputbirthdate">
+        </div>
+        <div id="button">
+            <button id="add" onclick="Add()">Add</button>
+        </div>
+    </div>
+   <div>
+        <table id="table">
+            <tr>
+                <th id="thh">Name</th>
+                <th id="thh">Surname</th>
+                <th id="thh">Gender</th>
+                <th id="thh">Birth date</th>
+            </tr>
+        </table>
+   </div>
+
+
+
+
+    <script src="baby.js"></script>
+</body>
+</html>
